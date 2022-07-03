@@ -1,8 +1,9 @@
 #include<stdio.h>
+#include<unistd.h>
 /**
  * main-prints the standard error sandwiched around the sandard output
  *
- * Return: returns 1
+ * Return: Always 0 (success)
  */
 int main(void)
 {
