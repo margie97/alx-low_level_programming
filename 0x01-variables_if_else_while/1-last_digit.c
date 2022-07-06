@@ -1,16 +1,15 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/* more headers goes there */
 
-/**
- * main-prints the last digitof the random 
- * number stored in the variable n
- * Return: Always 0 (Success)
- */
+/* betty style doc for function main goes there */
 int main(void)
-
 {
 int n;
 
-strand(time(0
-
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+/* your code goes there */
+return (0);
+}
